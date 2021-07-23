@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Regression">
+    <test name="Regression" parallel="classes" thread-count="8">
+        <classes>
+           <class name="com.weborders.tests.LoginTests"/>
+            <class name="com.weborders.tests.ViewAllOrdersTest"/>
+            <class name="com.weborders.tests.OrdersTest"/>
+            <class name="com.weborders.tests.ViewAllProductsTest"></class>
+        </classes>
+    </test>
+</suite>
